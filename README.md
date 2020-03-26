@@ -2,7 +2,7 @@
 Opinionated easy way to generate and remove sites in laradock
 
 
-## New docker in Windows
+## New laradock in Windows
 
 Add to a .gitignore global `/laradock-*`
 
