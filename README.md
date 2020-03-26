@@ -49,7 +49,8 @@ Copy `generator.php` to the root folder `laradock-myproject` and then:
 php generator.php --host=mysite.local --path=public --company=MYCOMPANY --country=ES
 ```
 
-then exit docker and restart it
+Add the ssl cert that it is in laradock-myproject\nginx\sites\mysite.local.conf as ca in your browser to make https works
+Exit docker and restart it
 
 
 ## Remove a site
@@ -58,4 +59,5 @@ Copy `remover.php` to the root folder `laradock-myproject` and then:
 php remover.php --host=mysite.local
 ```
 
-then exit docker and restart it
+Remove the ssl cert added (laradock-myproject\nginx\sites\mysite.local.conf) from ca in your browser
+Exit docker and restart it
