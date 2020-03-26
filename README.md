@@ -5,4 +5,4 @@ Utils to generate and remove sites in laradock
 `php generator.php --host=mysite.local --path=public --company=MYCOMPANY --country=ES`
 
 ## Remove a site
-`php remover.php --host=mysite.local
+`php remover.php --host=mysite.local`
