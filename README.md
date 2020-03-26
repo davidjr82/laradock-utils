@@ -44,6 +44,7 @@ docker-compose stop
 
 
 ## Create a site
+Copy `generator.php` to the root folder `laradock-myproject` and then:
 ```bash
 php generator.php --host=mysite.local --path=public --company=MYCOMPANY --country=ES
 ```
@@ -52,6 +53,7 @@ then exit docker and restart it
 
 
 ## Remove a site
+Copy `remover.php` to the root folder `laradock-myproject` and then:
 ```bash
 php remover.php --host=mysite.local
 ```
