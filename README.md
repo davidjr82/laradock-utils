@@ -1,5 +1,5 @@
-# laradock-utils
-Utils to generate and remove sites in laradock
+# Laradock Utils
+Opinionated easy way to generate and remove sites in laradock
 
 ## Create a site
 `php generator.php --host=mysite.local --path=public --company=MYCOMPANY --country=ES`
